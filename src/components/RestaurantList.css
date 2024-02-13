@@ -1,0 +1,49 @@
+
+
+.restaurant-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.restaurant-list-container {
+}
+
+.restaurant-list-search-field {
+    margin: 15px 5px;
+}
+
+.restaurant-list-table {
+    width: 100%;
+    .header-icon {
+        margin: 0 5px;
+    }
+}
+
+.restaurant-list-pagination {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.restaurant-list-pagination-row-perpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+
+    div.label {
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .select {
+        height: 30px;
+        margin-left: 5px;
+    }
+}
